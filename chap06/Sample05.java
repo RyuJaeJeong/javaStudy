@@ -4,7 +4,7 @@ public class Sample05 {
 	public static void main(String[] args) {
 		int in = 5;
 		
-		switch(in) {
+		/*switch(in) {
 			case 1, 3, 5, 7, 9 :
 				System.out.println("홀수입니다.");
 				break;
@@ -13,6 +13,6 @@ public class Sample05 {
 				break;	
 			default:
 				System.out.println("1부터 10까지의 수가 아닙니다.");
-		}
+		}*/
 	}
 }

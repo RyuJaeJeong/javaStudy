@@ -10,7 +10,7 @@ public class test07 {
 		int left = 0;
 		int right = 0; 
 		char [] temps = temp.toCharArray();
-		for(char c : temps) {
+		/*for(char c : temps) {
 			switch(c) {
 				case 'A', 'B', 'C', 'D', 'E', 'F'
 					 ,'G', 'Q', 'R', 'S', 'T', 'V'
@@ -20,7 +20,7 @@ public class test07 {
 				 ,'N', 'O', 'P', 'U', 'Y', '6'
 				 ,'7', '8', '9', '0' -> right++;
 			}
-		}
+		}*/
 		System.out.printf("left : %d ,  right : %d", left, right);
 	}
 }
