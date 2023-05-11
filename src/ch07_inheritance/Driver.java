@@ -5,7 +5,7 @@ public class Driver {
 
     //field
     public void drive(Vehicle vehicle){
-        vehicle.run();
+        if(vehicle instanceof Taxi) vehicle.run();
     }
 
     //매게변수 다형성 - 사용방법은 동일하지만, 수행결과가 다르게나옴.
